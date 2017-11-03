@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Biblioteca Virtual</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="img/li.png">
+</head>
+<body>
+<div class="container">
+		<div class="page-header">
+			<img src="img/li.png" height="67" width="67" class="titulo" alt="Error">
+			<h1 class="titulo">Biblioteca Virtual</h1>
+			<div id="cajaBoba"></div>
+		</div>
+		<div class="btn-group btn-group-justified">
+			<a href="verlibros.php" class="btn btn-primary">Acceder a nuestros documentos</a>
+			<a href="verlibros.php" class="btn btn-primary">Agregar un libro </a>
+			
+		</div>
+			<div class="container-f">
+				<div class="jumbotron">
+				<h1 class="text-center"><strong>¡Escríbanos!</strong></h1>
+				<p><strong>Complete los datos del siguiente formulario indicando al sector al que pertenece y las características del libro que desea subir</strong></p>
+					<div class="form-group">
+						<form method="GET" action="/">
+							<div>
+								<div class="contRadio">
+								<br>	
+									SJT turno tarde <input class="form-control" type="radio" name="g1" value="SJT turno tarde" >
+									SJT turno mañana <input class="form-control" type="radio" name="g1" value="SJT turno mañana">
+									Guadalupe <input class="form-control" type="radio" name="g1" value="Guadalupe">
+								</div>
+								<div>
+								<label class="form-control" for="nom">Nombre del libro</label>
+								<input class="form-control" type="text" name="cajatexto" value="" id="nom" placeholder="El tunel"><br>
+								<label class="form-control" for="autor">Nombre del autor</label>
+								<input class="form-control" type="email" name="cajatexto" value="" id="autor" placeholder="Ernesto Sabato"><br>
+								<label class="form-control" for="gen">Genero</label>	
+								<select class="form-control" name="Genero" id="gen">
+									<option value="">(seleccione el genero)</option>
+									<option value="Terror">Terror</option>
+									<option value="Drama">Drama</option>
+									<option value="Romance">Romance</option>
+									<option value="Taller">Documento de taller</option>
+									<option value="Enciclopedia">Enciclopedia</option>
+									<option value="Contenido">Libro teorico</option>
+								</select><br>
+								<input class="btn" type="submit" value="Buscar" class= "deingreso">
+								<input class="btn" type="reset" value="Limpiar" class= "deingreso">
+								</div>
+							</div>
+						</form>
+					</div>
+			</div>
+		</div>
+		<div  class="container-f">
+			<div class="jumbotron">
+			<h2  class="text-right"><small> Ante cualquier problema o duda consultar los alumnos de 6°to año, informática.<small></h2>
+			</div>
+		</div>
+</div>	
+</body>
+</html>
